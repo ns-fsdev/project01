@@ -1,0 +1,9 @@
+/*  css style sheet for
+    Project01 Basic Business or Personal Website
+    */
+
+/* Page 1  Home */
+body {
+	background-image: url(old-paper-background-926.jpg);
+	max-width: 1024px;
+}
