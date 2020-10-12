@@ -7,3 +7,39 @@ body {
 	background-image: url(old-paper-background-926.jpg);
 	max-width: 1024px;
 }
+
+/* main Banner */
+div.banner {
+	width: "1024px";
+
+}
+
+
+/*  nav bar  setup */
+nav { 
+    height: 85px;
+    width: 1024px;
+    background-color: #331a00;    /*brown */
+    
+}
+
+nav ul {
+	       
+	list-style-type: none;      /* no bullets */
+
+	font-weight: bold;
+	font-family: "Trebuchet MS", Tahoma;
+	font-size: 20px;
+	color: yellow !important;    /* browser keeps chng color */
+	text-align: center;
+
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 35px ;
+    padding-top: 25px;  
+
+} 
+
