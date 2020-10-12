@@ -29,9 +29,10 @@ div.banner {
 	list-style-type: none;      /* no bullets */
 	font-family: "Trebuchet MS", Tahoma;
 	font-size: 20px;
-	color: yellow !important;    /* browser ignores this */
 	text-align: center;
 	padding-top: 30px;
+	background-color: #331a00;      
+
 }
 
 #navBig >nav >ul >li {
@@ -39,6 +40,10 @@ div.banner {
 	padding: 40px;
 
 } 
+
+#navBig >nav >ul >li >a {
+	color: yellow;
+}
 
 
 
@@ -86,7 +91,7 @@ div.banner {
 	width: 445px;
 	height: 375px;
 	padding-left: 30px;
-	margin-left: 30px; 
+	margin-left: 20px;  
 }
 
 /* bottom box - contains content - pages 2 and 3 */
@@ -106,17 +111,24 @@ div.banner {
 	font-weight: bold;
 	font-family: "Trebuchet MS", Tahoma;
 	font-size: 16px;
-	color: yellow !important;    /* browser keeps chng color */
 	text-align: center;
 	padding-left: 0px;
 	padding-top: 60px;
 
+
 }
 
 .navbar-mini >ul > li {
-	display: inline; 
-	padding-right: 30px;
+	display: inline;
+	padding-left: 20px; 
+	padding-right: 20px;
 
+	background-color: #331a00;
+
+}
+
+.navbar-mini >ul > li > a {
+	color: yellow;  
 }
 
 
