@@ -43,3 +43,24 @@ nav ul li {
 
 } 
 
+
+#Main-image {
+	width:760px;
+	height:470px;
+	float: left;
+	margin: 0px;
+}
+
+
+#Main-text {
+	
+    margin-left: 0px;
+	
+
+	padding-top: 200px;
+    font-family: "Trebuchet MS", Tahoma;
+    color: #331a00;          /* brown */
+    font-size: 18px;
+    text-align: center;
+}
+
