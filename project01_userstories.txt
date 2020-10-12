@@ -1,0 +1,43 @@
+Project 01: Basic Business or Personal Website
+   
+ FAU/Quickstart
+ Full-Stack Web Developer
+
+ By Nigel Sampath
+
+
+
+** USER Stories **
+
+
+USER 1  Student : 
+
+Students are generally younger, 
+they want a bright and attractive 
+website. They want a site that is
+quick to use. 
+
+
+
+USER 2  Mothers : 
+
+Mothers will generally want
+foods that are healthier for
+their children. They want a 
+site that contains healthy options.
+
+
+USER 3 General user : 
+
+A general user is someone 
+that browsed the web and then 
+chose to visit the website. 
+They want a site that
+should be appealing, have different 
+food options. 
+
+
+
+ 
+[ End ]
+

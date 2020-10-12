@@ -7,51 +7,48 @@
 body {
 	background-image: url(old-paper-background-926.jpg);
 	max-width: 1024px;
-
-
+	color: #331a00;
 }    
 
 /* main Banner */
 div.banner {
 	width: "1024px";
-
 }
 
 
 /*  nav bar  setup */
-nav { 
+#navBig  { 
     height: 85px;
     width: 1024px;
     background-color: #331a00;    /*brown */
     
 }
 
-
-nav ul {
+#navBig >nav >ul {
 	       
 	list-style-type: none;      /* no bullets */
-
-	font-weight: bold;
 	font-family: "Trebuchet MS", Tahoma;
 	font-size: 20px;
-	color: yellow !important;    /* browser keeps chng color */
+	color: yellow !important;    /* browser ignores this */
 	text-align: center;
-
-
+	padding-top: 30px;
 }
 
-nav ul li {
-	display: inline-block;
-	padding: 35px ;
-    padding-top: 25px;  
+#navBig >nav >ul >li {
+	display: inline;
+	padding: 40px;
 
 } 
+
+
+
+/* Main image and Main text */
 
 #Main-image {
 	width:760px;
 	height:470px;
 	float: left;
-	margin: 0px;
+	margin-bottom: 60px;
 }
 
 
@@ -65,7 +62,9 @@ nav ul li {
     color: #331a00;          /* brown */
     font-size: 18px;
     text-align: center;
+    margin-bottom: 60px;
 }
+
 
 
 /*  Page 2 Menu  */
@@ -80,10 +79,10 @@ nav ul li {
 }
 
 
-/*  spacing box - no content - pages 2 and 3 */
+/*  spacing box  - pages 2 and 3 */
 .topbox {
-	border-color: black;
-	border-style: solid;
+	border-color: black;     /* border needed to debug position */
+	border-style: none;
 	width: 445px;
 	height: 375px;
 	padding-left: 30px;
@@ -92,19 +91,43 @@ nav ul li {
 
 /* bottom box - contains content - pages 2 and 3 */
 .bottombox {
-	border-color: black;
-	border-style: solid;
+	border-color: black;   /* border needed to debug position */
+	border-style: none;
 	width: 445px;
 	height: 320px;
 	padding-left: 30px;
 	margin-left: 30px;
 }
 
+/* mini Navbar  -  pages 2 and 3  */
+
+.navbar-mini > ul {
+    list-style-type: none;        /* no bullets */
+	font-weight: bold;
+	font-family: "Trebuchet MS", Tahoma;
+	font-size: 16px;
+	color: yellow !important;    /* browser keeps chng color */
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 60px;
+
+}
+
+.navbar-mini >ul > li {
+	display: inline; 
+	padding-right: 30px;
+
+}
+
+
+
+
 /*  menu items text */
 .menutxt {
 	margin-bottom: 20px;
 	font-family: "Trebuchet MS", Tahoma;
 	font-size: 14px;       /* Chrome chooses its own size */
+	font-color: black !important;
 }	
 
 
