@@ -64,3 +64,42 @@ nav ul li {
     text-align: center;
 }
 
+
+/*  Page 2 Menu  */
+
+#Menu {
+	background-image: url("old-paper-backgr-menu2.jpg");
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+    min-height: 770px;
+    min-width: 530;
+}
+
+
+/*  spacing box - no content - pages 2 and 3 */
+.topbox {
+	border-color: black;
+	border-style: solid;
+	width: 445px;
+	height: 375px;
+	padding-left: 30px;
+	margin-left: 30px; 
+}
+
+/* bottom box - contains content - pages 2 and 3 */
+.bottombox {
+	border-color: black;
+	border-style: solid;
+	width: 445px;
+	height: 320px;
+	padding-left: 30px;
+	margin-left: 30px;
+}
+
+/*  menu items text */
+.menutxt {
+	margin-bottom: 20px;
+	font-family: "Trebuchet MS", Tahoma;
+	font-size: 14px;       /* Chrome chooses its own size */
+}	
