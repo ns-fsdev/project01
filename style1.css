@@ -1,0 +1,133 @@
+/*  css style sheet for
+    Project01 Basic Business or Personal Website
+    */
+
+
+/* Page 1  Home */
+body {
+	background-image: url(old-paper-background-926.jpg);
+	max-width: 1024px;
+
+
+}    
+
+/* main Banner */
+div.banner {
+	width: "1024px";
+
+}
+
+
+/*  nav bar  setup */
+nav { 
+    height: 85px;
+    width: 1024px;
+    background-color: #331a00;    /*brown */
+    
+}
+
+
+nav ul {
+	       
+	list-style-type: none;      /* no bullets */
+
+	font-weight: bold;
+	font-family: "Trebuchet MS", Tahoma;
+	font-size: 20px;
+	color: yellow !important;    /* browser keeps chng color */
+	text-align: center;
+
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 35px ;
+    padding-top: 25px;  
+
+} 
+
+#Main-image {
+	width:760px;
+	height:470px;
+	float: left;
+	margin: 0px;
+}
+
+
+#Main-text {
+	
+    margin-left: 0px;
+	
+
+	padding-top: 200px;
+    font-family: "Trebuchet MS", Tahoma;
+    color: #331a00;          /* brown */
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*  Page 2 Menu  */
+
+#Menu {
+	background-image: url("old-paper-backgr-menu2.jpg");
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+    min-height: 770px;
+    min-width: 530;
+}
+
+
+/*  spacing box - no content - pages 2 and 3 */
+.topbox {
+	border-color: black;
+	border-style: solid;
+	width: 445px;
+	height: 375px;
+	padding-left: 30px;
+	margin-left: 30px; 
+}
+
+/* bottom box - contains content - pages 2 and 3 */
+.bottombox {
+	border-color: black;
+	border-style: solid;
+	width: 445px;
+	height: 320px;
+	padding-left: 30px;
+	margin-left: 30px;
+}
+
+/*  menu items text */
+.menutxt {
+	margin-bottom: 20px;
+	font-family: "Trebuchet MS", Tahoma;
+	font-size: 14px;       /* Chrome chooses its own size */
+}	
+
+
+
+/* Page 3 "Contact Us" */
+
+#Contact {
+	background-image: url("old-paper-backgr-contact.jpg");
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+    min-height: 770px;
+    min-width: 530px;
+}
+
+#formlegend  {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 24px;
+	color: Magenta;     
+
+}
+
+
+
+
+
